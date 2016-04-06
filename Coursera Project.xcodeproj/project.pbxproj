@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF778EA51CB553D400FA86FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF778EA41CB553D400FA86FA /* AppDelegate.swift */; };
+		BF778EA71CB553D400FA86FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF778EA61CB553D400FA86FA /* ViewController.swift */; };
+		BF778EAA1CB553D400FA86FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF778EA81CB553D400FA86FA /* Main.storyboard */; };
+		BF778EAC1CB553D400FA86FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF778EAB1CB553D400FA86FA /* Assets.xcassets */; };
+		BF778EAF1CB553D400FA86FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF778EAD1CB553D400FA86FA /* LaunchScreen.storyboard */; };
+		BF778EBA1CB553D500FA86FA /* Coursera_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF778EB91CB553D500FA86FA /* Coursera_ProjectTests.swift */; };
+		BF778EC51CB553D500FA86FA /* Coursera_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF778EC41CB553D500FA86FA /* Coursera_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF778EB61CB553D500FA86FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF778E991CB553D400FA86FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF778EA01CB553D400FA86FA;
+			remoteInfo = "Coursera Project";
+		};
+		BF778EC11CB553D500FA86FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF778E991CB553D400FA86FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF778EA01CB553D400FA86FA;
+			remoteInfo = "Coursera Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF778EA11CB553D400FA86FA /* Coursera Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coursera Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF778EA41CB553D400FA86FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF778EA61CB553D400FA86FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF778EA91CB553D400FA86FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF778EAB1CB553D400FA86FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF778EAE1CB553D400FA86FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF778EB01CB553D400FA86FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF778EB51CB553D500FA86FA /* Coursera ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coursera ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF778EB91CB553D500FA86FA /* Coursera_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_ProjectTests.swift; sourceTree = "<group>"; };
+		BF778EBB1CB553D500FA86FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF778EC01CB553D500FA86FA /* Coursera ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coursera ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF778EC41CB553D500FA86FA /* Coursera_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_ProjectUITests.swift; sourceTree = "<group>"; };
+		BF778EC61CB553D500FA86FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF778E9E1CB553D400FA86FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF778EB21CB553D500FA86FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF778EBD1CB553D500FA86FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF778E981CB553D400FA86FA = {
+			isa = PBXGroup;
+			children = (
+				BF778EA31CB553D400FA86FA /* Coursera Project */,
+				BF778EB81CB553D500FA86FA /* Coursera ProjectTests */,
+				BF778EC31CB553D500FA86FA /* Coursera ProjectUITests */,
+				BF778EA21CB553D400FA86FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF778EA21CB553D400FA86FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF778EA11CB553D400FA86FA /* Coursera Project.app */,
+				BF778EB51CB553D500FA86FA /* Coursera ProjectTests.xctest */,
+				BF778EC01CB553D500FA86FA /* Coursera ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF778EA31CB553D400FA86FA /* Coursera Project */ = {
+			isa = PBXGroup;
+			children = (
+				BF778EA41CB553D400FA86FA /* AppDelegate.swift */,
+				BF778EA61CB553D400FA86FA /* ViewController.swift */,
+				BF778EA81CB553D400FA86FA /* Main.storyboard */,
+				BF778EAB1CB553D400FA86FA /* Assets.xcassets */,
+				BF778EAD1CB553D400FA86FA /* LaunchScreen.storyboard */,
+				BF778EB01CB553D400FA86FA /* Info.plist */,
+			);
+			path = "Coursera Project";
+			sourceTree = "<group>";
+		};
+		BF778EB81CB553D500FA86FA /* Coursera ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF778EB91CB553D500FA86FA /* Coursera_ProjectTests.swift */,
+				BF778EBB1CB553D500FA86FA /* Info.plist */,
+			);
+			path = "Coursera ProjectTests";
+			sourceTree = "<group>";
+		};
+		BF778EC31CB553D500FA86FA /* Coursera ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF778EC41CB553D500FA86FA /* Coursera_ProjectUITests.swift */,
+				BF778EC61CB553D500FA86FA /* Info.plist */,
+			);
+			path = "Coursera ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF778EA01CB553D400FA86FA /* Coursera Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF778EC91CB553D500FA86FA /* Build configuration list for PBXNativeTarget "Coursera Project" */;
+			buildPhases = (
+				BF778E9D1CB553D400FA86FA /* Sources */,
+				BF778E9E1CB553D400FA86FA /* Frameworks */,
+				BF778E9F1CB553D400FA86FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coursera Project";
+			productName = "Coursera Project";
+			productReference = BF778EA11CB553D400FA86FA /* Coursera Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF778EB41CB553D500FA86FA /* Coursera ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF778ECC1CB553D500FA86FA /* Build configuration list for PBXNativeTarget "Coursera ProjectTests" */;
+			buildPhases = (
+				BF778EB11CB553D500FA86FA /* Sources */,
+				BF778EB21CB553D500FA86FA /* Frameworks */,
+				BF778EB31CB553D500FA86FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF778EB71CB553D500FA86FA /* PBXTargetDependency */,
+			);
+			name = "Coursera ProjectTests";
+			productName = "Coursera ProjectTests";
+			productReference = BF778EB51CB553D500FA86FA /* Coursera ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF778EBF1CB553D500FA86FA /* Coursera ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF778ECF1CB553D500FA86FA /* Build configuration list for PBXNativeTarget "Coursera ProjectUITests" */;
+			buildPhases = (
+				BF778EBC1CB553D500FA86FA /* Sources */,
+				BF778EBD1CB553D500FA86FA /* Frameworks */,
+				BF778EBE1CB553D500FA86FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF778EC21CB553D500FA86FA /* PBXTargetDependency */,
+			);
+			name = "Coursera ProjectUITests";
+			productName = "Coursera ProjectUITests";
+			productReference = BF778EC01CB553D500FA86FA /* Coursera ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF778E991CB553D400FA86FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nahim Jesus Hidalgo Sabido";
+				TargetAttributes = {
+					BF778EA01CB553D400FA86FA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BF778EB41CB553D500FA86FA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BF778EA01CB553D400FA86FA;
+					};
+					BF778EBF1CB553D500FA86FA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BF778EA01CB553D400FA86FA;
+					};
+				};
+			};
+			buildConfigurationList = BF778E9C1CB553D400FA86FA /* Build configuration list for PBXProject "Coursera Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF778E981CB553D400FA86FA;
+			productRefGroup = BF778EA21CB553D400FA86FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF778EA01CB553D400FA86FA /* Coursera Project */,
+				BF778EB41CB553D500FA86FA /* Coursera ProjectTests */,
+				BF778EBF1CB553D500FA86FA /* Coursera ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF778E9F1CB553D400FA86FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF778EAF1CB553D400FA86FA /* LaunchScreen.storyboard in Resources */,
+				BF778EAC1CB553D400FA86FA /* Assets.xcassets in Resources */,
+				BF778EAA1CB553D400FA86FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF778EB31CB553D500FA86FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF778EBE1CB553D500FA86FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF778E9D1CB553D400FA86FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF778EA71CB553D400FA86FA /* ViewController.swift in Sources */,
+				BF778EA51CB553D400FA86FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF778EB11CB553D500FA86FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF778EBA1CB553D500FA86FA /* Coursera_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF778EBC1CB553D500FA86FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF778EC51CB553D500FA86FA /* Coursera_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF778EB71CB553D500FA86FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF778EA01CB553D400FA86FA /* Coursera Project */;
+			targetProxy = BF778EB61CB553D500FA86FA /* PBXContainerItemProxy */;
+		};
+		BF778EC21CB553D500FA86FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF778EA01CB553D400FA86FA /* Coursera Project */;
+			targetProxy = BF778EC11CB553D500FA86FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF778EA81CB553D400FA86FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF778EA91CB553D400FA86FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF778EAD1CB553D400FA86FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF778EAE1CB553D400FA86FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF778EC71CB553D500FA86FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF778EC81CB553D500FA86FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF778ECA1CB553D500FA86FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coursera Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahim.Coursera-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF778ECB1CB553D500FA86FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coursera Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahim.Coursera-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF778ECD1CB553D500FA86FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coursera ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahim.Coursera-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera Project.app/Coursera Project";
+			};
+			name = Debug;
+		};
+		BF778ECE1CB553D500FA86FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coursera ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahim.Coursera-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera Project.app/Coursera Project";
+			};
+			name = Release;
+		};
+		BF778ED01CB553D500FA86FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Coursera ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahim.Coursera-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Coursera Project";
+			};
+			name = Debug;
+		};
+		BF778ED11CB553D500FA86FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Coursera ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahim.Coursera-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Coursera Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF778E9C1CB553D400FA86FA /* Build configuration list for PBXProject "Coursera Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF778EC71CB553D500FA86FA /* Debug */,
+				BF778EC81CB553D500FA86FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF778EC91CB553D500FA86FA /* Build configuration list for PBXNativeTarget "Coursera Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF778ECA1CB553D500FA86FA /* Debug */,
+				BF778ECB1CB553D500FA86FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF778ECC1CB553D500FA86FA /* Build configuration list for PBXNativeTarget "Coursera ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF778ECD1CB553D500FA86FA /* Debug */,
+				BF778ECE1CB553D500FA86FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF778ECF1CB553D500FA86FA /* Build configuration list for PBXNativeTarget "Coursera ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF778ED01CB553D500FA86FA /* Debug */,
+				BF778ED11CB553D500FA86FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF778E991CB553D400FA86FA /* Project object */;
+}
