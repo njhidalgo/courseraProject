@@ -24,11 +24,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        //print("SEARCH TAPPED")
         
         if textField.text == ""{
             
-            let alertaCampoVacio = UIAlertController(title: "Error", message: "No puedes dejar el campo vacio", preferredStyle: UIAlertControllerStyle.Alert)
+            let alertaCampoVacio = UIAlertController(title: "Error", message: "No puedes dejar el campo vacío", preferredStyle: UIAlertControllerStyle.Alert)
             alertaCampoVacio.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alertaCampoVacio, animated: true, completion: nil)
             
