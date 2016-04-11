@@ -12,6 +12,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var searchField: UITextField!
     
+    @IBOutlet weak var tituloLabel: UILabel!
+    
+    @IBOutlet weak var autoresLabel: UILabel!
+    
+    @IBOutlet weak var imagenCover: UIImageView!
+    
+    
     @IBOutlet weak var searchResult: UITextView!
     
     
@@ -63,7 +70,51 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 self.presentViewController(alertaIsbnInexistente, animated: true, completion: nil)
                 
             }else{
-               searchResult.text = texto as! String
+                
+                do{
+                    
+                    //JSON GENERAL
+                    let json = try NSJSONSerialization.JSONObjectWithData(datos!, options: []) as! [String:AnyObject]
+                    
+                    //SE OBTIENE EL TITULO DEL LIBRO
+                    let title = json["ISBN:\(searchField.text!)"]!["title"] as! String
+
+                    tituloLabel.text = title
+                    
+                    //SE OBTIENEN LOS AUTORES
+                    let dicAutores = json["ISBN:\(searchField.text!)"]!["authors"] as! [[String:AnyObject]]
+                    
+                    var autores: String = String()
+                    
+                    for autor in dicAutores{
+                        //print(autor["name"] as! String)
+                    
+                        autores += autor["name"] as! String
+                        
+                        if dicAutores.count > 1{
+                            
+                            autores += " - "
+                            
+                        }
+                        
+                    }
+                    
+                    autoresLabel.text = autores
+                    
+                    let urls = "http://covers.openlibrary.org/b/isbn/\(searchField.text!)-M.jpg"
+                    let url = NSURL(string: urls)
+                    let datos: NSData? = NSData(contentsOfURL: url!)
+                    
+                    let image: UIImage = UIImage(data:datos!,scale:1.0)!
+                    
+                    imagenCover.image = image
+                    
+                }
+                catch {
+                    
+                    print("json error: \(error)")
+                    
+                }
             }
             
         }
